@@ -1,0 +1,277 @@
+	section{
+	background-color:#FFE8E8; 
+	padding: 20px;
+	}
+	
+	body hr{
+	border: none;
+	height: 6px;
+	color:#E18B8B;
+	background-color:#E18B8B;
+	}
+	
+	body  ul{
+	color: #D1A6A6;
+    line-height: 18px;
+	}
+	
+	#logo{
+	width: 70px;
+	height: 70px;
+	margin: 0px 690px;
+	}
+	
+	nav{
+	overflow: hidden;
+	background-color: #E14E7A;
+	margin: 0;
+	}
+	
+	nav a{
+	color: white;
+	float: left;
+	padding: 16px 16px;
+	text-align: center;
+	font-family: Tahoma, sans-serif;
+	}
+	
+	nav a:hover {
+	background-color:#C23F66;
+	}
+	
+	body h1, h2, h3, h4{
+	text-align: left;
+	color:#E18B8B;
+	line-height: 5px;
+	}
+
+	body p{
+	color:#D1A6A6;
+	}
+	
+	a{
+	text-decoration:none;
+	color:#D1A6A6;
+	}
+	
+	td{
+	color:#E18B8B;
+	text-align: center;
+	}
+	
+	#title{
+	color:#E18B8B;
+	text-align:center; 
+	line-height: 5px;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-weight: 900;
+	font-size: 40px;
+	}
+	
+	#season{
+	font-family: Georgia, serif;
+	text-align:center; 
+	line-height: 5px;
+	letter-spacing: 13px;
+	color:#E18B8B;
+	font-size: 20px;
+	}
+	
+	.cast img{
+	width: 175px; 
+	height:175px;
+	padding: 10px 20px;
+	}
+	
+	.cast td{
+	color:#D1A6A6;
+	}
+	
+	#castNames{
+	font-weight: bold;
+	}
+	
+	#perfgrp hr{
+	height: 1px;
+	color: #CBCBCB;
+	background-color: #CBCBCB;
+	}
+
+	#perfpos hr{
+	height: 1px;
+	color: #CBCBCB;
+	background-color: #CBCBCB;
+	}
+	
+	.exit{
+	position: relative;
+	top: 10px;
+	left: 1270px;
+	height:30px;
+	width: 30px;
+	background-color: #D9D9D9;
+	color: black;
+	border: none;
+	}
+	
+	.trigger{
+	float: left;
+	background-color:#E16C92; 
+	height: 150px; 
+	width: 200px;
+	border: none;
+	margin: 20px 5px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	}
+	
+	#PickMe .trigger{
+	letter-spacing:9px;
+	font-size: 15px;
+	}
+	
+	.trigger h2{
+	color: white;
+	text-align: center;
+	}
+	
+	.trigger h4{
+	color: white;
+	text-align: center;
+	}
+	
+	#PickMe .trigger h2{
+	color: white;
+	font-weight: 600;
+	line-height: 2px;
+	font-size: 40px;
+	letter-spacing: normal;
+	margin-bottom: 12px;
+	}
+	
+	#perf .tile{
+	display: none;
+	clear: left;
+	border: solid 2px grey;	
+	height: 800px;
+	width: 1320px;
+	}
+	
+	.tile h3{
+		margin: 5px;
+	}
+	
+	#perf .tile1{
+	display: none;
+	clear: left;
+	border: solid 2px grey;	
+	height: 920px;
+	width: 1320px;
+	}
+	
+	.tile h3{
+		margin: 5px;
+	}
+	
+	.tile2{
+	display: none;
+	clear: left;
+	border: solid 2px grey;	
+	height: 1600px;
+	width: 1320px;	
+	}
+	
+	.tile2 h3{
+	margin: 5px;
+	}
+	
+	.tile3{
+	display: none;
+	clear: left;
+	border: solid 2px grey;	
+	height: 2400px;
+	width: 1320px;	
+	}
+	
+	.tile3 h3{
+	margin: 5px;
+	}
+	
+	.tile4{
+	display: none;
+	clear: left;
+	border: solid 2px grey;	
+	height: 3200px;
+	width: 1320px;	
+	}
+	
+	.tile4 h3{
+	margin: 5px;
+	}
+	
+	.tile5{
+	display: none;
+	clear: left;
+	border: solid 2px grey;	
+	height: 4800px;
+	width: 1320px;	
+	}
+	
+	.tile5 h3{
+	margin: 5px;
+	}
+	
+	.iframe{
+	border: none;
+	margin: 20px 20px;
+	width: 1280px;
+	height: 720px;
+	}
+	
+	.iframe2{
+	border: none;
+	position: relative;
+	left: 400px;
+	width: 560px;
+	height: 315px;
+	}
+	
+	#perf h3{
+		clear: left;
+	}
+	
+	#perf hr{
+		clear: left;
+	}
+	
+	#rankings {
+		clear: left;
+	}
+	
+	#rankings > div{
+	float: left;
+	width: 300px;
+	background-color: white;
+	border: 3px solid gray;
+	margin: 10px 10px 10px 10px;
+	height: 150px;
+	}
+	
+	#rankings img{
+	width: 150px;
+	height: 150px; 
+	float: left;
+	}
+	
+	#rankings p{
+	color: grey;
+	line-height: 2px;
+	}
+	
+	#rankings .name{
+	color: #E18B8B;
+	line-height:15px;
+	font-weight: bold;
+	}
+	
