@@ -224,11 +224,23 @@
 	display: none;
 	clear: left;
 	border: solid 2px grey;	
-	height: 4800px;
+	height: 4000px;
 	width: 1320px;	
 	}
 	
 	.tile5 h3{
+	margin: 5px;
+	}
+
+	.tile6{
+	display: none;
+	clear: left;
+	border: solid 2px grey;	
+	height: 4800px;
+	width: 1320px;	
+	}
+	
+	.tile6 h3{
 	margin: 5px;
 	}
 	
