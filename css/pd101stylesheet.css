@@ -168,6 +168,10 @@
 	width: 1320px;
 	}
 	
+	.tile h3{
+		margin: 5px;
+	}
+	
 	#perf .tile1{
 	display: none;
 	clear: left;
