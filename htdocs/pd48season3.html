@@ -82,21 +82,21 @@
 		<hr></hr>
 		<div id=PickMe>
 		<button class=trigger onclick="function1()"><h2>Nekkoya</h2>episode 0</button>
-			<div class=tile id=>
+			<div class=tile id=pickme1>
 				<button class=exit onclick="exit1()">x</button>
 				<h2>Nekkoya - Produce 48 Ep. 0</h2>
 					<iframe class=iframe frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
 					src="https://www.youtube.com/embed/UOmolLOQ7Rs"></iframe>
 			</div>
 		<button class=trigger onclick="function2()"><h2>Nekkoya</h2>practice wear ver.</button>
-			<div class=tile id=>
+			<div class=tile id=pickme2>
 				<button class=exit onclick="exit1()">x</button>
 				<h2>Nekkoya (Practice Wear ver.) Ep. 0</h2>
 					<iframe class=iframe frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
 					src="https://www.youtube.com/embed/9TR1e25CQUo"></iframe>
 			</div>
 		<button class=trigger onclick="function3()"><h2>Nekkoya</h2>episode 12</button>
-			<div class=tile id=>
+			<div class=tile id=pickme3>
 				<button class=exit onclick="exit1()">x</button>
 				<h2>Nekkoya - Produce 48 Top 20 Ep. 12</h2>
 					<iframe class=iframe frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
@@ -286,7 +286,7 @@
 				<button class=exit onclick="exit14()">x</button>
 				<h3>I AM - 1AM(Produced by FullBloom)</h3>
 				<iframe class=iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-				src="https://youtube.com/embed/CPo2Qd4chx4>
+				src="https://youtube.com/embed/CPo2Qd4chx4">
 				</iframe>
 			</div>
 			<button class=trigger onclick="function15()"><h2>Rumor</h2></button>
@@ -332,6 +332,32 @@
 			</div>
 		<h3>Debut Evaluation</h3>
 		<hr>
+		<button class=trigger onclick="function20()"><h2></h2></button>
+			<div id=WT class=tile>
+				<button class=exit onclick="exit20()">x</button>
+				<h3>We Together - Produce 48 Ep.12(Produced By Han Seong-su)</h3>
+					<iframe class=iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+					src="https://youtube.com/embed/7slEI06BiO8">
+					</iframe>
+			</div>
+			
+			<button class=trigger onclick="function21()"><h2></h2></button>
+			<div id=SNN class=tile>
+				<button class=exit onclick="exit21()">x</button>
+				<h3>Suki Ni Nacchaudarou? - Produce48 Ep.12(Produced By Yasushi Akimoto)</h3>
+					<iframe class=iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+					src="https://youtube.com/embed/s1rOKFSQG4E">
+					</iframe>
+			</div>
+			
+			<button class=trigger onclick="function22()"><h2></h2></button>
+			<div id=ASW class=tile>
+				<button class=exit onclick="exit()">x</button>
+				<h3>As We Dream - Produce48 Top20 Ep.12 (Produced By Yasushi Akimoto)</h3>
+					<iframe class=iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+					src="https://youtube.com/embed/XYBDnxArzK0">
+					</iframe>
+			</div>
 		</div>
 		<script>
 		function function1(){
@@ -521,6 +547,36 @@
 		<script>
 		function exit19(){
 		document.getElementById("OTP").style.display="none";
+		}
+		</script>
+			<script>
+		function function20(){
+		document.getElementById("WT").style.display="block";
+		}
+		</script>
+		<script>
+		function exit20(){
+		document.getElementById("WT").style.display="none";
+		}
+		</script>
+		<script>
+		function function21(){
+		document.getElementById("SNN").style.display="block";
+		}
+		</script>
+		<script>
+		function exit21(){
+		document.getElementById("SNN").style.display="none";
+		}
+		</script>
+		<script>
+		function function22(){
+		document.getElementById("ASW").style.display="block";
+		}
+		</script>
+		<script>
+		function exit22(){
+		document.getElementById("ASW").style.display="none";
 		}
 		</script>
 		<h2>Final Lineup</h2>
