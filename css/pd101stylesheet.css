@@ -86,6 +86,16 @@
 	.cast td{
 	color:#D1A6A6;
 	}
+
+	.cast2 img{
+	width: 175px; 
+	height:175px;
+	padding: 10px 10px;
+	}
+	
+	.cast2 td{
+	color:#D1A6A6;
+	}
 	
 	#castNames{
 	font-weight: bold;
